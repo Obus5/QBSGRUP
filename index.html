@@ -73,26 +73,32 @@
     </a>
 
 
-    <nav id="navMenu">
+<nav id="navMenu">
 
-        <a href="#projects">
-            Projects
-        </a>
+    <a href="#projects" data-i18n="navProjects">
+        Projects
+    </a>
 
-        <a href="#about">
-            About
-        </a>
+    <a href="#about" data-i18n="navAbout">
+        About
+    </a>
 
-        <a href="#contact">
-            Contact
-        </a>
+    <a href="#contact" data-i18n="navContact">
+        Contact
+    </a>
 
-    </nav>
+</nav>
 
+<!-- LANGUAGE SWITCHER -->
+<div class="language-switcher">
+    <button type="button" data-lang="id">ID</button>
+    <span class="language-divider"></span>
+    <button type="button" data-lang="en">EN</button>
+</div>
 
-    <button
-        class="menu-button"
-        id="menuButton"
+<button
+    class="menu-button"
+    id="menuButton"
         type="button"
         aria-label="Buka menu"
     >
@@ -124,44 +130,48 @@
     <div class="hero-glow hero-glow-two"></div>
 
 
-    <div class="hero-content reveal">
 
-        <p class="eyebrow">
-            QBS GRUP
-        </p>
+<div class="hero-content reveal">
 
+    <p class="eyebrow">
+        QBS GRUP
+    </p>
 
-        <h1>
+    <h1>
 
+        <span data-i18n="heroTitle">
             We build ideas into
+        </span>
 
-            <span>
-                digital experiences.
-            </span>
+        <span data-i18n="heroHighlight">
+            digital experiences.
+        </span>
 
-        </h1>
+    </h1>
 
+    <p
+        class="hero-description"
+        data-i18n="heroDescription"
+    >
+        An independent ecosystem building digital products,
+        financial tools, media, games, and creative experiences.
+    </p>
 
-        <p class="hero-description">
+    <a
+        href="#projects"
+        class="hero-button"
+    >
 
-            An independent ecosystem building digital products,
-            financial tools, media, games, and creative experiences.
-
-        </p>
-
-
-        <a
-            href="#projects"
-            class="hero-button"
-        >
-
+        <span data-i18n="heroButton">
             Explore Projects
+        </span>
 
-            <span>↓</span>
+        <span>↓</span>
 
-        </a>
+    </a>
 
-    </div>
+</div>
+
 
 
     <div class="scroll-text">
@@ -181,6 +191,7 @@
 
 
 
+
 <!-- =========================================================
      01 — SAKUQ
 ========================================================= -->
@@ -192,65 +203,48 @@
 
     <div class="project-container">
 
-
         <!-- PHONE SHOWCASE -->
 
         <div class="project-visual reveal">
 
             <div class="phone-showcase">
 
-
                 <div class="phone phone-left">
-
                     <div class="phone-notch"></div>
 
                     <div class="phone-screen">
-
                         <img
                             src="images/sakuq-1.png"
                             alt="sakuQ Screen 1"
                         >
-
                     </div>
-
                 </div>
 
-
                 <div class="phone phone-main">
-
                     <div class="phone-notch"></div>
 
                     <div class="phone-screen">
-
                         <img
                             src="images/sakuq-2.png"
                             alt="sakuQ Screen 2"
                         >
-
                     </div>
-
                 </div>
 
-
                 <div class="phone phone-right">
-
                     <div class="phone-notch"></div>
 
                     <div class="phone-screen">
-
                         <img
                             src="images/sakuq-3.png"
                             alt="sakuQ Screen 3"
                         >
-
                     </div>
-
                 </div>
-
 
                 <div class="visual-label">
 
-                    <small>
+                    <small data-i18n="sakuqCategory">
                         PERSONAL FINANCE
                     </small>
 
@@ -269,7 +263,6 @@
         </div>
 
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -278,46 +271,51 @@
                 01
             </div>
 
-
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="sakuqCategory"
+            >
                 PERSONAL FINANCE
             </p>
-
 
             <h2>
                 sakuQ
             </h2>
 
-
             <h3>
+                <span data-i18n="sakuqTitle">
+                    Manage your finances.
+                </span>
 
-                Catat keuangan.<br>
+                <br>
 
-                Pahami pengeluaran.
-
+                <span data-i18n="sakuqSubtitle">
+                    Understand your spending.
+                </span>
             </h3>
 
-
-            <p class="project-description">
-
-                sakuQ adalah aplikasi pencatatan keuangan pribadi
-                yang membantu pengguna mencatat pemasukan dan
-                pengeluaran serta memahami kondisi keuangan
-                dengan lebih sederhana.
-
+            <p
+                class="project-description"
+                data-i18n="sakuqDescription"
+            >
+                sakuQ is a personal finance tracking application
+                that helps users record income and expenses
+                and understand their financial situation more easily.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Personal Finance</span>
-
                 <span>Web</span>
-
                 <span>Android</span>
 
             </div>
 
+
+            <!-- ACTION BUTTONS -->
 
             <div class="project-actions">
 
@@ -328,12 +326,13 @@
                     rel="noopener noreferrer"
                 >
 
-                    Kunjungi Website
+                    <span data-i18n="visitWebsite">
+                        Visit Website
+                    </span>
 
                     <span>↗</span>
 
                 </a>
-
 
                 <a
                     href="https://sakuq-av.vercel.app/"
@@ -342,7 +341,9 @@
                     rel="noopener noreferrer"
                 >
 
-                    Download APK
+                    <span data-i18n="downloadApk">
+                        Download APK
+                    </span>
 
                     <span>↗</span>
 
@@ -358,8 +359,6 @@
 
 
 
-
-
 <!-- =========================================================
      02 — USAHAQ
 ========================================================= -->
@@ -371,7 +370,6 @@
 
     <div class="project-container">
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -380,59 +378,66 @@
                 02
             </div>
 
-
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="usahaqCategory"
+            >
                 BUSINESS MANAGEMENT
             </p>
-
 
             <h2>
                 UsahaQ
             </h2>
 
-
             <h3>
 
-                Kelola usaha.<br>
+                <span data-i18n="usahaqTitle">
+                    Manage your business.
+                </span>
 
-                Lebih sederhana.
+                <br>
+
+                <span data-i18n="usahaqSubtitle">
+                    Made simpler.
+                </span>
 
             </h3>
 
-
-            <p class="project-description">
-
-                UsahaQ adalah aplikasi pengelolaan usaha yang
-                dikembangkan untuk membantu pelaku usaha mencatat
-                transaksi, mengelola aktivitas bisnis, dan melihat
-                informasi usahanya dalam satu tempat.
-
+            <p
+                class="project-description"
+                data-i18n="usahaqDescription"
+            >
+                UsahaQ is a business management application
+                designed to help business owners record
+                transactions, manage business activities,
+                and access business information in one place.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Business</span>
-
                 <span>UMKM</span>
-
                 <span>Management</span>
 
             </div>
 
 
+            <!-- DEVELOPMENT STATUS -->
+
             <div class="development-status">
 
                 <span class="status-dot"></span>
 
-
                 <div>
 
-                    <small>
+                    <small data-i18n="projectStatus">
                         PROJECT STATUS
                     </small>
 
-                    <strong>
+                    <strong data-i18n="developmentStatus">
                         In Development
                     </strong>
 
@@ -443,13 +448,11 @@
         </div>
 
 
-
         <!-- PHONE SHOWCASE -->
 
         <div class="project-visual reveal">
 
             <div class="phone-showcase">
-
 
                 <div class="phone phone-left">
 
@@ -499,9 +502,11 @@
                 </div>
 
 
+                <!-- VISUAL LABEL -->
+
                 <div class="visual-label">
 
-                    <small>
+                    <small data-i18n="usahaqCategory">
                         BUSINESS MANAGEMENT
                     </small>
 
@@ -509,7 +514,7 @@
                         UsahaQ
                     </strong>
 
-                    <span>
+                    <span data-i18n="developmentStatus">
                         In Development
                     </span>
 
@@ -526,7 +531,6 @@
 
 
 
-
 <!-- =========================================================
      03 — BULLBEAR.ID
 ========================================================= -->
@@ -538,13 +542,11 @@
 
     <div class="project-container">
 
-
         <!-- PHONE SHOWCASE -->
 
         <div class="project-visual reveal">
 
             <div class="phone-showcase">
-
 
                 <div class="phone phone-left">
 
@@ -594,9 +596,11 @@
                 </div>
 
 
+                <!-- VISUAL LABEL -->
+
                 <div class="visual-label dark-label">
 
-                    <small>
+                    <small data-i18n="bullbearCategory">
                         CAPITAL MARKET MEDIA
                     </small>
 
@@ -615,7 +619,6 @@
         </div>
 
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -625,7 +628,10 @@
             </div>
 
 
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="bullbearCategory"
+            >
                 CAPITAL MARKET MEDIA
             </p>
 
@@ -637,31 +643,38 @@
 
             <h3>
 
-                Understand the market.<br>
+                <span data-i18n="bullbearTitle">
+                    Understand the market.
+                </span>
 
-                Not just the noise.
+                <br>
+
+                <span data-i18n="bullbearSubtitle">
+                    Not just the noise.
+                </span>
 
             </h3>
 
 
-            <p class="project-description">
-
-                BullBear.ID adalah media edukasi pasar modal
-                yang menghadirkan konten seputar saham,
-                investasi, data, insight, dan perkembangan
-                pasar melalui platform digital.
-
+            <p
+                class="project-description"
+                data-i18n="bullbearDescription"
+            >
+                BullBear.ID is a capital market education
+                platform providing content about stocks,
+                investing, market data, insights, and
+                financial market developments through
+                digital platforms.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Capital Market</span>
-
                 <span>Education</span>
-
                 <span>Instagram</span>
-
                 <span>TikTok</span>
 
             </div>
@@ -673,14 +686,13 @@
 
                 <span class="status-dot"></span>
 
-
                 <div>
 
-                    <small>
+                    <small data-i18n="mobileApp">
                         MOBILE APP
                     </small>
 
-                    <strong>
+                    <strong data-i18n="developmentStatus">
                         In Development
                     </strong>
 
@@ -689,7 +701,7 @@
             </div>
 
 
-            <!-- SOCIAL -->
+            <!-- SOCIAL MEDIA BUTTONS -->
 
             <div class="project-actions">
 
@@ -731,7 +743,6 @@
 
 
 
-
 <!-- =========================================================
      04 — SMARTMONEY TRADING SIMULATOR
 ========================================================= -->
@@ -743,7 +754,6 @@
 
     <div class="project-container">
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -752,48 +762,55 @@
                 04
             </div>
 
-
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="smartmoneyCategory"
+            >
                 TRADING SIMULATION
             </p>
-
 
             <h2>
                 SmartMoney
             </h2>
 
-
             <h3>
 
-                Learn trading.<br>
+                <span data-i18n="smartmoneyTitle">
+                    Learn trading.
+                </span>
 
-                Without the risk.
+                <br>
+
+                <span data-i18n="smartmoneySubtitle">
+                    Without the risk.
+                </span>
 
             </h3>
 
-
-            <p class="project-description">
-
-                SmartMoney Trading Simulator merupakan simulasi
-                trading yang memungkinkan pengguna mempelajari
-                mekanisme transaksi saham dan mengelola portfolio
-                virtual tanpa menggunakan uang nyata.
-
+            <p
+                class="project-description"
+                data-i18n="smartmoneyDescription"
+            >
+                SmartMoney Trading Simulator allows users
+                to learn stock trading mechanisms and
+                manage a virtual portfolio without
+                using real money.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Trading</span>
-
                 <span>Simulator</span>
-
                 <span>Web</span>
-
                 <span>Android</span>
 
             </div>
 
+
+            <!-- ACTION BUTTONS -->
 
             <div class="project-actions">
 
@@ -804,12 +821,13 @@
                     rel="noopener noreferrer"
                 >
 
-                    Kunjungi Website
+                    <span data-i18n="visitWebsite">
+                        Visit Website
+                    </span>
 
                     <span>↗</span>
 
                 </a>
-
 
                 <a
                     href="https://smtradingsimulator.vercel.app/"
@@ -818,7 +836,9 @@
                     rel="noopener noreferrer"
                 >
 
-                    Download APK
+                    <span data-i18n="downloadApk">
+                        Download APK
+                    </span>
 
                     <span>↗</span>
 
@@ -829,13 +849,11 @@
         </div>
 
 
-
         <!-- PHONE SHOWCASE -->
 
         <div class="project-visual reveal">
 
             <div class="phone-showcase">
-
 
                 <div class="phone phone-left">
 
@@ -885,9 +903,11 @@
                 </div>
 
 
+                <!-- VISUAL LABEL -->
+
                 <div class="visual-label">
 
-                    <small>
+                    <small data-i18n="smartmoneyCategory">
                         TRADING SIMULATION
                     </small>
 
@@ -911,8 +931,6 @@
 
 
 
-
-
 <!-- =========================================================
      05 — GROWVEST
 ========================================================= -->
@@ -924,13 +942,11 @@
 
     <div class="project-container">
 
-
         <!-- PHONE SHOWCASE -->
 
         <div class="project-visual reveal">
 
             <div class="phone-showcase">
-
 
                 <div class="phone phone-left">
 
@@ -980,9 +996,11 @@
                 </div>
 
 
+                <!-- VISUAL LABEL -->
+
                 <div class="visual-label">
 
-                    <small>
+                    <small data-i18n="growvestCategory">
                         INVESTMENT GAME
                     </small>
 
@@ -1001,7 +1019,6 @@
         </div>
 
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -1011,7 +1028,10 @@
             </div>
 
 
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="growvestCategory"
+            >
                 INVESTMENT GAME
             </p>
 
@@ -1023,35 +1043,43 @@
 
             <h3>
 
-                Build wealth.<br>
+                <span data-i18n="growvestTitle">
+                    Build wealth.
+                </span>
 
-                One tap at a time.
+                <br>
+
+                <span data-i18n="growvestSubtitle">
+                    One tap at a time.
+                </span>
 
             </h3>
 
 
-            <p class="project-description">
-
-                GrowVest adalah game simulasi yang mengajak pemain
-                membangun kekayaan secara bertahap, menghasilkan
-                uang, membeli aset, serta mencoba investasi seperti
-                saham dan crypto dalam lingkungan permainan.
-
+            <p
+                class="project-description"
+                data-i18n="growvestDescription"
+            >
+                GrowVest is a simulation game where players
+                gradually build wealth, earn money, purchase
+                assets, and explore investments such as stocks
+                and cryptocurrency in a virtual environment.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Game</span>
-
                 <span>Investment</span>
-
                 <span>Simulation</span>
-
                 <span>Android</span>
 
             </div>
 
+
+            <!-- ACTION BUTTONS -->
 
             <div class="project-actions">
 
@@ -1062,7 +1090,9 @@
                     rel="noopener noreferrer"
                 >
 
-                    Kunjungi Website
+                    <span data-i18n="visitWebsite">
+                        Visit Website
+                    </span>
 
                     <span>↗</span>
 
@@ -1076,7 +1106,9 @@
                     rel="noopener noreferrer"
                 >
 
-                    Download APK
+                    <span data-i18n="downloadApk">
+                        Download APK
+                    </span>
 
                     <span>↗</span>
 
@@ -1092,8 +1124,6 @@
 
 
 
-
-
 <!-- =========================================================
      06 — QBS CHANNEL
 ========================================================= -->
@@ -1105,7 +1135,6 @@
 
     <div class="project-container">
 
-
         <!-- CONTENT -->
 
         <div class="project-content reveal">
@@ -1114,49 +1143,60 @@
                 06
             </div>
 
-
-            <p class="project-category">
+            <p
+                class="project-category"
+                data-i18n="channelCategory"
+            >
                 GAMING & STREAMING
             </p>
-
 
             <h2>
                 QBS CHANNEL
             </h2>
 
-
             <h3>
 
-                Play.<br>
+                <span data-i18n="channelTitle">
+                    Play.
+                </span>
 
-                Stream.<br>
+                <br>
 
-                Explore.
+                <span data-i18n="channelSubtitle">
+                    Stream.
+                </span>
+
+                <br>
+
+                <span data-i18n="channelHighlight">
+                    Explore.
+                </span>
 
             </h3>
 
-
-            <p class="project-description">
-
-                QBS CHANNEL adalah channel gaming yang menghadirkan
-                gameplay, streaming, mod, eksperimen, serta berbagai
-                momen dari beragam game.
-
+            <p
+                class="project-description"
+                data-i18n="channelDescription"
+            >
+                QBS CHANNEL is a gaming channel featuring
+                gameplay, live streaming, mods, experiments,
+                and various moments from different games.
             </p>
 
+
+            <!-- TAGS -->
 
             <div class="project-tags">
 
                 <span>Gaming</span>
-
                 <span>YouTube</span>
-
                 <span>Streaming</span>
-
                 <span>Entertainment</span>
 
             </div>
 
+
+            <!-- YOUTUBE BUTTON -->
 
             <div class="project-actions">
 
@@ -1167,7 +1207,9 @@
                     rel="noopener noreferrer"
                 >
 
-                    Visit YouTube
+                    <span data-i18n="visitYoutube">
+                        Visit YouTube
+                    </span>
 
                     <span>↗</span>
 
@@ -1178,47 +1220,51 @@
         </div>
 
 
+        <!-- YOUTUBE VIDEO -->
 
-            <!-- YOUTUBE VIDEO -->
+        <div class="project-visual reveal">
 
-            <div class="project-visual reveal">
+            <div class="youtube-showcase">
 
-                <div class="youtube-showcase">
+                <div class="youtube-video">
 
-                    <div class="youtube-video">
+                    <iframe
+                        src="https://www.youtube.com/embed/ITylWhtNKIs"
+                        title="QBS CHANNEL Video"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
 
-                        <iframe
-                            src="https://www.youtube.com/embed/ITylWhtNKIs"
-                            title="QBS CHANNEL Video"
-                            loading="lazy"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                        </iframe>
-
-                    </div>
+                </div>
 
 
-                    <div class="visual-label">
+                <!-- VISUAL LABEL -->
 
-                        <small>
-                            GAMING & STREAMING
-                        </small>
+                <div class="visual-label">
 
-                        <strong>
-                            QBS CHANNEL
-                        </strong>
+                    <small data-i18n="channelCategory">
+                        GAMING & STREAMING
+                    </small>
 
-                        <span>
-                            YouTube
-                        </span>
+                    <strong>
+                        QBS CHANNEL
+                    </strong>
 
-                    </div>
+                    <span>
+                        YouTube
+                    </span>
 
                 </div>
 
             </div>
 
+        </div>
+
+    </div>
+
 </section>
+
 
 
 </div>
@@ -1235,47 +1281,53 @@
     id="about"
 >
 
+    <!-- ABOUT LEFT -->
 
     <div class="about-left reveal">
 
-        <p class="eyebrow">
+        <p
+            class="eyebrow"
+            data-i18n="aboutLabel"
+        >
             ABOUT QBS GRUP
         </p>
 
-
         <h2>
 
-            Ideas don't have to
+            <span data-i18n="aboutTitle">
+                Ideas don't have to
+            </span>
 
-            stay as ideas.
+            <br>
+
+            <span data-i18n="aboutSubtitle">
+                stay as ideas.
+            </span>
 
         </h2>
 
     </div>
 
 
+    <!-- ABOUT RIGHT -->
 
     <div class="about-right reveal">
 
+        <p data-i18n="aboutDescription1">
+            QBS GRUP is an independent ecosystem that
+            brings together various digital projects,
+            from financial applications and investment
+            technology to media, games, and digital content.
+        </p>
 
-        <p>
-
-            QBS GRUP adalah ekosistem independen yang menjadi
-            rumah bagi berbagai proyek digital, mulai dari
-            aplikasi keuangan, teknologi investasi, media,
-            game, hingga konten digital.
-
+        <p data-i18n="aboutDescription2">
+            Each project is developed from an idea into
+            a digital product or experience that can
+            be used, explored, and enjoyed.
         </p>
 
 
-        <p>
-
-            Setiap proyek dikembangkan dari sebuah ide menjadi
-            produk atau pengalaman digital yang dapat digunakan,
-            dipelajari, maupun dinikmati.
-
-        </p>
-
+        <!-- CATEGORIES -->
 
         <div class="about-categories">
 
@@ -1298,6 +1350,7 @@
 
 
 
+
 <!-- =========================================================
      CONTACT
 ========================================================= -->
@@ -1313,12 +1366,17 @@
             QBS GRUP
         </p>
 
-
         <h2>
 
-            Building ideas<br>
+            <span data-i18n="contactTitle">
+                Building ideas
+            </span>
 
-            into reality.
+            <br>
+
+            <span data-i18n="contactSubtitle">
+                into reality.
+            </span>
 
         </h2>
 
@@ -1328,6 +1386,7 @@
 
 
 </main>
+
 
 
 
@@ -1359,7 +1418,10 @@
                 >
             </a>
 
-            <p class="footer-description">
+            <p
+                class="footer-description"
+                data-i18n="footerDescription"
+            >
                 Independent digital ecosystem building apps,
                 financial tools, media, games, and creative projects.
             </p>
@@ -1374,7 +1436,9 @@
 
         <div class="footer-column">
 
-            <h4>PROJECTS</h4>
+            <h4 data-i18n="footerProjects">
+                PROJECTS
+            </h4>
 
             <div class="footer-links">
 
@@ -1417,7 +1481,9 @@
 
         <div class="footer-column">
 
-            <h4>SOCIAL MEDIA</h4>
+            <h4 data-i18n="footerSocial">
+                SOCIAL MEDIA
+            </h4>
 
             <div class="footer-links">
 
@@ -1448,10 +1514,7 @@
                     <span>↗</span>
                 </a>
 
-                <!-- GANTI DENGAN LINK QBS CHANNEL -->
-                <a
-                    href="#qbschannel"
-                >
+                <a href="#qbschannel">
                     YouTube
                     <span>↗</span>
                 </a>
@@ -1468,7 +1531,9 @@
 
         <div class="footer-column">
 
-            <h4>CONTACT & SUPPORT</h4>
+            <h4 data-i18n="footerContact">
+                CONTACT & SUPPORT
+            </h4>
 
             <div class="footer-contact">
 
@@ -1480,7 +1545,7 @@
                     <span>↗</span>
                 </a>
 
-                <p>
+                <p data-i18n="footerSupportDescription">
                     Questions, collaborations, or want to support
                     the development of QBS GRUP?
                 </p>
@@ -1491,14 +1556,15 @@
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Support Developer
+                    <span data-i18n="supportButton">
+                        Support Developer
+                    </span>
                     <span>↗</span>
                 </a>
 
             </div>
 
         </div>
-
 
     </div>
 
@@ -1512,15 +1578,22 @@
 
         <p>
             © <span id="year"></span> QBS GRUP.
-            All rights reserved.
+            <span data-i18n="copyright">
+                All rights reserved.
+            </span>
         </p>
 
-        <p class="footer-built">
+        <p
+            class="footer-built"
+            data-i18n="builtBy"
+        >
             Built independently by QBS GRUP
         </p>
 
         <a href="#home">
-            Back to top ↑
+            <span data-i18n="backToTop">
+                Back to top ↑
+            </span>
         </a>
 
     </div>
@@ -1529,9 +1602,11 @@
 
 
 
+
 <!-- JAVASCRIPT -->
 
 <script src="js/script.js"></script>
+<script src="js/language.js"></script>
 
 
 </body>
